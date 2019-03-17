@@ -1,0 +1,2 @@
+insert into sprav_izd (id_sprav, obo, name) values (1,'01','Подшипник роликовый')
+insert into sprav_izd_new select * from sprav_izd where id_sprav=15
