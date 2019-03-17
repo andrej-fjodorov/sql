@@ -1,0 +1,15 @@
+Select 
+article.article_obo,
+article.name_izd,
+article.nomenkl,
+article.massa,
+ed_izmer.massa
+from
+article,
+article_ed_izmer,
+ed_izmer
+where
+article.id_izd = article_er_izmer.id_article
+and 
+article_ed_izmer.id_ed_izm = ed_izmer.id_ed_izm
+and article.obo like 'СПК.7.20.____'
