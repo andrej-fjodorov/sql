@@ -1,0 +1,2 @@
+delete from Article
+where id_izd = 453
