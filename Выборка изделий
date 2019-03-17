@@ -1,0 +1,14 @@
+Select 
+article.article_obo,--обзначение издения
+article.name_izd, -- наименование изделия
+article.nomenkl, -- номенклатура
+article.massa, -- масса изделия
+ed_izmer.massa -- единица измерения
+from
+article, -- таблица изделий
+article_ed_izmer, -- таблица-связка
+ed_izmer  --единиы измерения
+where
+article.id_izd = article_er_izmer.id_article
+and 
+article_ed_izmer.id_ed_izm = ed_izmer.id_ed_izm
