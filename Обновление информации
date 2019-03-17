@@ -1,0 +1,7 @@
+update parametr
+set param_value = 10
+where id_par = 209451
+
+update parametr 
+set id_par = 3000, value = 50 
+where id_par = 209451
