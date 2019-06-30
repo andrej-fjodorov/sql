@@ -1,1 +1,2 @@
-select * from article order by nimencl desc
+select * from article
+order by nomencl desc
